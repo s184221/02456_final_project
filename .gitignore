@@ -3,4 +3,5 @@ paths.txt
 white_noise_path.txt
 models/model1
 train/dataset.cfg
+train/.cache_dataset.cfg
 output/SNR0_model1.wav
