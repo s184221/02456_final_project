@@ -1,0 +1,8 @@
+2022-12-30 10:45:16 | INFO     | DF | Running on torch 1.13.0+cu117
+2022-12-30 10:45:16 | INFO     | DF | Running on host desktop-manjaro
+2022-12-30 10:45:16 | INFO     | DF | Loading model settings of 5_epochs_deepfilternet_20000_samples_white_noise
+2022-12-30 10:45:16 | INFO     | DF | Initializing model `deepfilternet`
+2022-12-30 10:45:18 | INFO     | DF | Found checkpoint /home/peterrc/Documents/5_epochs_deepfilternet_20000_samples_white_noise/checkpoints/model_6.ckpt.best with epoch 6
+2022-12-30 10:45:18 | INFO     | DF | Running on device cuda:0
+2022-12-30 10:45:18 | INFO     | DF | Model loaded
+2022-12-30 10:45:19 | INFO     | DF | Enhanced noisy audio file 'combined_first_audio_sample_white_noise_-19db.wav' in 1.7s (RT factor: 0.170)

@@ -1,1 +1,4 @@
 *.hdf5
+paths.txt
+white_noise_path.txt
+models/model1
