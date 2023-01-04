@@ -16,19 +16,19 @@ si_sdr = ScaleInvariantSignalDistortionRatio()
 wb_pesq = PerceptualEvaluationSpeechQuality(16000, 'wb')
 
 
-clean_wav, _ = torchaudio.load("clean_cut.wav")
+clean_wav, _ = torchaudio.load("Comparison DF vs DFR/clean_cut.wav")
 
-df_2SNR_5, _ = torchaudio.load("2SNR-5_DF.wav")
-df_2SNR0, _ = torchaudio.load("2SNR0_DF.wav")
-df_2SNR5, _ = torchaudio.load("2SNR5_DF.wav")
-df_2SNR10, _ = torchaudio.load("2SNR10_DF.wav")
-df_2SNR15, _ = torchaudio.load("2SNR15_DF.wav")
+df_2SNR_5, _ = torchaudio.load("Comparison DF vs DFR/2SNR-5_DF.wav")
+df_2SNR0, _ = torchaudio.load("Comparison DF vs DFR/2SNR0_DF.wav")
+df_2SNR5, _ = torchaudio.load("Comparison DF vs DFR/2SNR5_DF.wav")
+df_2SNR10, _ = torchaudio.load("Comparison DF vs DFR/2SNR10_DF.wav")
+df_2SNR15, _ = torchaudio.load("Comparison DF vs DFR/2SNR15_DF.wav")
 
-dfR_2SNR_5, _ = torchaudio.load("2SNR-5_DFR.wav")
-dfR_2SNR0, _ = torchaudio.load("2SNR0_DFR.wav")
-dfR_2SNR5, _ = torchaudio.load("2SNR5_DFR.wav")
-dfR_2SNR10, _ = torchaudio.load("2SNR10_DFR.wav")
-dfR_2SNR15, _ = torchaudio.load("2SNR15_DFR.wav")
+dfR_2SNR_5, _ = torchaudio.load("Comparison DF vs DFR/2SNR-5_DFR.wav")
+dfR_2SNR0, _ = torchaudio.load("Comparison DF vs DFR/2SNR0_DFR.wav")
+dfR_2SNR5, _ = torchaudio.load("Comparison DF vs DFR/2SNR5_DFR.wav")
+dfR_2SNR10, _ = torchaudio.load("Comparison DF vs DFR/2SNR10_DFR.wav")
+dfR_2SNR15, _ = torchaudio.load("Comparison DF vs DFR/2SNR15_DFR.wav")
 
 
 print("SI_SDR DF:")
