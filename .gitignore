@@ -2,3 +2,4 @@
 paths.txt
 white_noise_path.txt
 models/model1
+train/dataset.cfg
